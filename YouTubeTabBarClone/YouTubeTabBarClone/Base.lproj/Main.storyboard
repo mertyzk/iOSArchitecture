@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FtA-U9-3N8">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Homepage-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YouTubeTabBarClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HomePage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3k7-Vf-AeJ">
+                                <rect key="frame" x="31" y="268" width="352" height="84"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="70"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3k7-Vf-AeJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="udh-kD-eXP"/>
+                            <constraint firstItem="3k7-Vf-AeJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="224" id="wME-3B-p0T"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Homepage" image="anasayfa" selectedImage="anasayfa" id="Mep-5y-dcv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1091" y="551"/>
+        </scene>
+        <!--Trends-->
+        <scene sceneID="Kki-IB-5MO">
+            <objects>
+                <viewController id="4qg-gK-c86" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NkX-tH-Cui">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trends" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SSG-qS-bNo">
+                                <rect key="frame" x="97" y="269" width="220" height="84"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="70"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="auH-eO-t6y"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SSG-qS-bNo" firstAttribute="top" secondItem="auH-eO-t6y" secondAttribute="top" constant="225" id="O5t-cu-Mgq"/>
+                            <constraint firstItem="SSG-qS-bNo" firstAttribute="centerX" secondItem="NkX-tH-Cui" secondAttribute="centerX" id="S9G-Jp-oHo"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Trends" image="trendler" selectedImage="trendler" id="4hH-yk-l8S"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gcb-63-GYx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-364" y="550"/>
+        </scene>
+        <!--Subscriptions-->
+        <scene sceneID="eyy-mu-QjU">
+            <objects>
+                <viewController id="tgU-ks-nkO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gQE-ot-4F8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subscriptions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RO1-gP-fJV">
+                                <rect key="frame" x="65.5" y="299" width="283" height="53"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qCc-OA-IuZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RO1-gP-fJV" firstAttribute="centerX" secondItem="gQE-ot-4F8" secondAttribute="centerX" id="BjZ-r1-v8D"/>
+                            <constraint firstItem="RO1-gP-fJV" firstAttribute="top" secondItem="qCc-OA-IuZ" secondAttribute="top" constant="255" id="bLt-3q-6eG"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Subscriptions" image="abonelikler" selectedImage="abonelikler" id="ry3-xv-vsj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bkj-KD-cYx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="391" y="550"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="OoB-l6-7iT">
+            <objects>
+                <viewController id="aTQ-q5-yRw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hDN-N8-nF1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Events" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cB-AB-L3w">
+                                <rect key="frame" x="98.5" y="291" width="217" height="84"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="70"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8vc-Gr-9XN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5cB-AB-L3w" firstAttribute="centerX" secondItem="hDN-N8-nF1" secondAttribute="centerX" id="Ouc-vA-yb5"/>
+                            <constraint firstItem="5cB-AB-L3w" firstAttribute="top" secondItem="8vc-Gr-9XN" secondAttribute="top" constant="247" id="oyP-cQ-965"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Events" image="etkinlik" selectedImage="etkinlik" id="7Ra-GF-abs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EYY-qI-IIe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1138" y="550"/>
+        </scene>
+        <!--Library-->
+        <scene sceneID="oJ3-tV-gpe">
+            <objects>
+                <viewController id="P9f-tE-0ln" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UTm-4X-aUw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Library" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbs-j3-UTB">
+                                <rect key="frame" x="99" y="289" width="225" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="70"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ggY-eh-fDl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Library" image="kitaplik" selectedImage="kitaplik" id="93U-BB-zTt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o0v-xs-H2S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1868" y="550"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="HcC-o2-l6D">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="FtA-U9-3N8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dKF-On-831">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemRedColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="jGN-Mg-z82"/>
+                        <segue destination="4qg-gK-c86" kind="relationship" relationship="viewControllers" id="QDM-eW-P7R"/>
+                        <segue destination="tgU-ks-nkO" kind="relationship" relationship="viewControllers" id="ORi-Yb-BVA"/>
+                        <segue destination="aTQ-q5-yRw" kind="relationship" relationship="viewControllers" id="O7C-UR-Y8U"/>
+                        <segue destination="P9f-tE-0ln" kind="relationship" relationship="viewControllers" id="wfe-Kp-Nac"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7eF-39-Lmt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1090" y="-232"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="abonelikler" width="24" height="24"/>
+        <image name="anasayfa" width="24" height="24"/>
+        <image name="etkinlik" width="24" height="24"/>
+        <image name="kitaplik" width="24" height="24"/>
+        <image name="trendler" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
