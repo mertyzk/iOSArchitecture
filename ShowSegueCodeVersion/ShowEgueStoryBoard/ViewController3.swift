@@ -12,8 +12,9 @@ class ViewController3: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.navigationItem.hidesBackButton = true
     }
+        
     
     @IBAction func ClickHomepageButton(_ sender: Any) {
         
